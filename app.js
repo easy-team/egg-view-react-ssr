@@ -8,7 +8,7 @@ module.exports = app => {
     }
     const context = { state: locals };
     return reactElement(context, options).then(element => {
-      return app.react.renderToString(element, locals);
+      return app.react.renderToString(element, context.state);
     });
   }
 };
