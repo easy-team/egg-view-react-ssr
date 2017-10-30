@@ -11,4 +11,8 @@ module.exports = app => {
       return app.react.renderToString(element, context.state);
     });
   }
+  app.react.render = (filepath, locals, options) => {
+    const reactElement = require(filepath);
+    return app.react.renderElement(reactElement, locals, options);
+  }
 };

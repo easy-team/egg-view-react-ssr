@@ -15,10 +15,9 @@ module.exports = {
     const config = this.app.config.reactssr;
     const layout = options.layout || config.layout;
     const filepath = path.join(this.app.config.view.root[0], name);
-    const reactElement = require(filepath);
     const renderList = [];
     renderList.push(layout ? this.app.react.render(layout, locals, { markup: true }) : Promise.resolve(''));
-    renderList.push(this.app.react.renderElement(reactElement, locals, options));
+    renderList.push(this.app.react.render(filepath, locals, options));
     return Promise.all(renderList).then(result => {
       const html = result[0].replace(/(<\/div><\/body>)/i, match => {
         return result[1] + match;
