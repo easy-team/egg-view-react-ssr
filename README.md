@@ -20,7 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/egg-view-react-ssr.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-view-react-ssr
 
-React server side render solution for egg-view-react
+React server side render solution for egg
 
 ## Install
 
