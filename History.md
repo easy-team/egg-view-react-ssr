@@ -1,4 +1,9 @@
 
+2.1.0 / 2017-11-16
+==================
+
+  * deps: resource login use server-side-render-resource plugin
+
 2.0.0 / 2017-11-09
 ==================
 
