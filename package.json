@@ -1,12 +1,9 @@
 {
   "name": "egg-view-react-ssr",
-  "version": "2.0.0-beta.3",
+  "version": "2.1.0",
   "description": "react server side render for egg",
   "eggPlugin": {
-    "name": "reactssr",
-    "dependencies": [
-      "view"
-    ]
+    "name": "reactssr"
   },
   "keywords": [
     "egg",
@@ -16,9 +13,9 @@
     "react server side render"
   ],
   "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "serialize-javascript": "^1.3.0"
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "server-side-render-resource": "^1.0.0"
   },
   "peerDependencies": {
     "react": "*",
@@ -49,11 +46,11 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
     "app",
+    "lib",
     "config",
-    "lib"
+    "agent.js",
+    "app.js"
   ],
   "ci": {
     "version": "6, 8"

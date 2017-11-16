@@ -1,6 +1,10 @@
 'use strict';
 module.exports = {
-  renderClient(name, locals, options = {}) {
+  renderClient(name, locals, options) {
+    return this.renderReactClient(name, locals, options);
+  },
+
+  renderReactClient(name, locals, options = {}) {
     const config = this.app.config.reactssr;
     const layout = options.layout || config.layout;
     options = Object.assign({}, options, { name, markup: true });
