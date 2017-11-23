@@ -1,4 +1,10 @@
 
+2.1.1 / 2017-11-23
+==================
+
+  * fix: webpack es6 module mode
+  * feat:support babel es6 module
+
 2.1.0 / 2017-11-16
 ==================
 
