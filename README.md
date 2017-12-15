@@ -38,6 +38,19 @@ exports.reactssr = {
 };
 ```
 
+## Version
+
+#### 1.x.x
+
+egg-view-react-ssr depends on egg-view-react plugin
+
+#### 2.x.x
+
+egg-view-react-ssr no longer depends on egg-view-react plugin, egg-view-react-ssr has an independent function that can run on its own
+
+- 2.0.0-2.1.1: react and react-dom dependence in plugin dependence
+- >2.2.0: react and react-dom are not inside in plugin dependence
+
 ## Configuration
 
 ```js
