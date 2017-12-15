@@ -1,6 +1,6 @@
 {
   "name": "egg-view-react-ssr",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "react server side render for egg",
   "eggPlugin": {
     "name": "reactssr"
@@ -13,9 +13,7 @@
     "react server side render"
   ],
   "dependencies": {
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "server-side-render-resource": "^1.0.0"
+    "server-side-render-resource": "^1.0.2"
   },
   "peerDependencies": {
     "react": "*",
