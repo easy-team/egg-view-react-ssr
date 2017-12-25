@@ -1,4 +1,14 @@
 
+3.2.1 / 2017-12-25
+==================
+
+  * fix:remove ctx,request,helper from locals use Object.defineProperty
+  * doc: add version description
+  * deps: react and react-dom not inline plugin dependence
+  * Release 2.1.1
+  * fix: webpack es6 module mode
+  * feat:support babel es6 module
+
 2.1.1 / 2017-11-23
 ==================
 
