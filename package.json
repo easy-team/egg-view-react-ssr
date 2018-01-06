@@ -1,6 +1,6 @@
 {
   "name": "egg-view-react-ssr",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "react server side render for egg",
   "eggPlugin": {
     "name": "reactssr"
