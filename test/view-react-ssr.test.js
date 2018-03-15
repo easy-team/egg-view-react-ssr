@@ -1,5 +1,5 @@
 'use strict';
-
+const assert = require('assert');
 const request = require('supertest');
 const mm = require('egg-mock');
 
@@ -20,5 +20,23 @@ describe('test/view-react-ssr.test.js', () => {
       .get('/')
       .expect('hi, reactssr')
       .expect(200);
+  });
+  it('should GET /render', () => {
+    return request(app.callback())
+      .get('/render')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('"csrf"') > -1);
+        assert(res.text.indexOf('react server side render for component') > -1);
+      });
+  });
+  it('should GET /renderClient', () => {
+    return request(app.callback())
+      .get('/renderClient')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('"csrf"') > -1);
+        assert(res.text.indexOf('react client render') > -1);
+      });
   });
 });

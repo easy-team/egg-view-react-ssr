@@ -1,0 +1,31 @@
+{
+  "component.js": "/public/js/hello/component.a5b20c7a.js",
+  "component.css": "/public/css/hello/component.93dab602.css",
+  "layout.js": "/public/js/layout.6c377a3b.js",
+  "vendor.js": "/public/js/vendor.841eac66.js",
+  "deps": {
+    "component.js": {
+      "js": [
+        "/public/js/vendor.841eac66.js",
+        "/public/js/common.52446b6b.js",
+        "/public/js/hello/component.a5b20c7a.js"
+      ],
+      "css": [
+        "/public/css/hello/component.93dab602.css"
+      ]
+    },
+    "layout.js": {
+      "js": [
+        "/public/js/vendor.841eac66.js",
+        "/public/js/common.52446b6b.js",
+        "/public/js/layout.6c377a3b.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}
