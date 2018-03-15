@@ -1,5 +1,5 @@
-<a name="2.2.2"></a>
-## [2.2.2](https://github.com/hubcarl/egg-view-react-ssr/compare/3.2.1...2.2.2) (2018-03-15)
+<a name="2.2.3"></a>
+## [2.2.3](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.2...2.2.3) (2018-03-15)
 
 
 ### Bug Fixes
@@ -13,7 +13,7 @@
 
   * fix: locals set default {}
 
-3.2.1 / 2017-12-25
+2.2.1 / 2017-12-25
 ==================
 
   * fix:remove ctx,request,helper from locals use Object.defineProperty
