@@ -1,3 +1,12 @@
+<a name="2.2.2"></a>
+## [2.2.2](https://github.com/hubcarl/egg-view-react-ssr/compare/3.2.1...2.2.2) (2018-03-15)
+
+
+### Bug Fixes
+
+* csrf support when post request ([f6b39a4](https://github.com/hubcarl/egg-view-react-ssr/commit/f6b39a4))
+
+
 
 2.2.2 / 2018-01-06
 ==================
