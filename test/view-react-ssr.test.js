@@ -30,6 +30,22 @@ describe('test/view-react-ssr.test.js', () => {
         assert(res.text.indexOf('react server side render for component') > -1);
       });
   });
+  it('should GET /renderMarkup', () => {
+    return request(app.callback())
+      .get('/renderMarkup')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('react server side render for component!') > -1);
+      });
+  });
+  it('should GET /renderError', () => {
+    return request(app.callback())
+      .get('/error')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('</body></html>') > -1);
+      });
+  });
   it('should GET /renderClient', () => {
     return request(app.callback())
       .get('/renderClient')
