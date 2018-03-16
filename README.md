@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-view-react-ssr.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-view-react-ssr
-[travis-image]: https://img.shields.io/travis/eggjs/egg-view-react-ssr.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-view-react-ssr
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-view-react-ssr.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-view-react-ssr?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-view-react-ssr.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-view-react-ssr
+[travis-image]: https://img.shields.io/travis/hubcarl/egg-view-react-ssr.svg?style=flat-square
+[travis-url]: https://travis-ci.org/hubcarl/egg-view-react-ssr
+[codecov-image]: https://img.shields.io/codecov/c/github/hubcarl/egg-view-react-ssr.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/hubcarl/egg-view-react-ssr?branch=master
+[david-image]: https://img.shields.io/david/hubcarl/egg-view-react-ssr.svg?style=flat-square
+[david-url]: https://david-dm.org/hubcarl/egg-view-react-ssr
 [snyk-image]: https://snyk.io/test/npm/egg-view-react-ssr/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-view-react-ssr
 [download-image]: https://img.shields.io/npm/dm/egg-view-react-ssr.svg?style=flat-square
