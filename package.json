@@ -1,6 +1,6 @@
 {
   "name": "egg-view-react-ssr",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "react server side render for egg",
   "eggPlugin": {
     "name": "reactssr"
@@ -12,7 +12,9 @@
     "react",
     "react server side render"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "server-side-render-resource": "^1.0.2"
+  },
   "peerDependencies": {
     "react": "*",
     "react-dom": "*"
@@ -29,7 +31,6 @@
     "eslint-config-egg": "^4.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "server-side-render-resource": "^1.0.2",
     "supertest": "^3.0.0",
     "webstorm-disable-index": "^1.2.0"
   },
