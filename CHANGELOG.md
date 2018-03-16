@@ -1,3 +1,8 @@
+<a name="2.2.4"></a>
+## [2.2.4](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.3...2.2.4) (2018-03-16)
+
+
+
 <a name="2.2.3"></a>
 ## [2.2.3](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.2...2.2.3) (2018-03-15)
 
