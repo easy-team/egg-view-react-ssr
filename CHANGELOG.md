@@ -1,3 +1,13 @@
+<a name="2.2.5"></a>
+## [2.2.5](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.4...2.2.5) (2018-06-13)
+
+
+### Bug Fixes
+
+* ctx missing when server render by enumerable: false ([1749123](https://github.com/hubcarl/egg-view-react-ssr/commit/1749123))
+
+
+
 <a name="2.2.4"></a>
 ## [2.2.4](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.3...2.2.4) (2018-03-16)
 
