@@ -1,3 +1,13 @@
+<a name="2.2.6"></a>
+## [2.2.6](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.5...2.2.6) (2018-07-03)
+
+
+### Bug Fixes
+
+* renderClient layout not use ssr layout ([0e6ec1f](https://github.com/hubcarl/egg-view-react-ssr/commit/0e6ec1f))
+
+
+
 <a name="2.2.5"></a>
 ## [2.2.5](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.4...2.2.5) (2018-06-13)
 
