@@ -11,6 +11,7 @@ exports.render = function* (ctx) {
 };
 
 exports.renderClient = function* (ctx) {
+  ctx.locals = { title: 'egg renderClient' };
   yield ctx.renderClient('component.js', {
     msg: 'react client render',
   });

@@ -52,6 +52,7 @@ describe('test/view-react-ssr.test.js', () => {
       .expect(200)
       .expect(res => {
         assert(res.text.indexOf('"csrf"') > -1);
+        assert(res.text.indexOf('"egg renderClient"') > -1);
         assert(res.text.indexOf('react client render') > -1);
       });
   });
