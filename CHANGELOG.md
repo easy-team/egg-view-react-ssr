@@ -1,3 +1,13 @@
+<a name="2.3.1"></a>
+## [2.3.1](https://github.com/hubcarl/egg-view-react-ssr/compare/2.3.0...2.3.1) (2018-07-20)
+
+
+### Bug Fixes
+
+* mergeLocals ([9692af6](https://github.com/hubcarl/egg-view-react-ssr/commit/9692af6))
+
+
+
 <a name="2.3.0"></a>
 # [2.3.0](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.7...2.3.0) (2018-07-20)
 
