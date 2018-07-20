@@ -27,6 +27,7 @@ module.exports = app => {
    *           inline {Boolean} true or false, default false
    *           location {String} headBefore, headAfter, bodyBefore, bodyAfter  insert location, default headBefore
    *           url {String} inline file absolution path
+   * @property {Boolean} mergeLocals - whether merge ctx.locals and locals
    * @property {Function} afterRender hook html after render
    * `publicPath`: static resource prefix path, so cdn domain address prefix or local prefix path(`/`)
    * `commonsChunk`: common js or css filename, so `vendor`
@@ -41,6 +42,7 @@ module.exports = app => {
     injectJs: true,
     crossorigin: false,
     injectRes: [],
+    mergeLocals: true,
     fallbackToClient: true, // fallback to client rendering if server render failed
     afterRender: (html, context) => { /* eslint no-unused-vars:off */
       return html;
