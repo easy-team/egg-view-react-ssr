@@ -4,10 +4,10 @@ module.exports = {
     return this.renderReactClient(name, locals, options);
   },
 
-  renderReactClient(name, locals, options = {}) {
+  renderReactClient(name, locals = {}, options = {}) {
     const config = this.app.config.reactssr;
     const layout = options.layout || config.layout;
-    locals = this.app.react.mergeLocals(this, locals, false);
+    locals = this.app.react.mergeLocals(this, locals, options, false);
     options = Object.assign({}, options, { name, markup: true });
     return this.app.react.renderPage(layout, locals, options).then(html => {
       this.body = html;
