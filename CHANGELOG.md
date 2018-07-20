@@ -1,3 +1,13 @@
+<a name="2.3.0"></a>
+# [2.3.0](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.7...2.3.0) (2018-07-20)
+
+
+### Features
+
+* support whether merge ctx.local by config.mergeLocals option ([aae1391](https://github.com/hubcarl/egg-view-react-ssr/commit/aae1391))
+
+
+
 <a name="2.2.7"></a>
 ## [2.2.7](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.6...2.2.7) (2018-07-04)
 
