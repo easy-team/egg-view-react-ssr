@@ -1,3 +1,13 @@
+<a name="2.3.2"></a>
+## [2.3.2](https://github.com/hubcarl/egg-view-react-ssr/compare/2.3.1...2.3.2) (2018-11-08)
+
+
+### Bug Fixes
+
+* no state component render ([455a92a](https://github.com/hubcarl/egg-view-react-ssr/commit/455a92a))
+
+
+
 <a name="2.3.1"></a>
 ## [2.3.1](https://github.com/hubcarl/egg-view-react-ssr/compare/2.3.0...2.3.1) (2018-07-20)
 
