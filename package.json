@@ -1,6 +1,6 @@
 {
   "name": "egg-view-react-ssr",
-  "version": "2.3.4",
+  "version": "2.4.0",
   "description": "react server side render for egg",
   "eggPlugin": {
     "name": "reactssr"
@@ -13,6 +13,7 @@
     "react server side render"
   ],
   "dependencies": {
+    "serialize-javascript": "^1.5.0",
     "server-side-render-resource": "^1.0.2"
   },
   "peerDependencies": {
@@ -27,6 +28,7 @@
     "egg-bin": "^3.4.0",
     "egg-ci": "^1.6.0",
     "egg-mock": "^3.7.0",
+    "egg-view-nunjucks": "^2.2.0",
     "eslint": "^3.19.0",
     "eslint-config-egg": "^4.2.0",
     "react": "^16.2.0",
