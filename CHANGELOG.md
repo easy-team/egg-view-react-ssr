@@ -1,3 +1,14 @@
+<a name="2.4.0"></a>
+# [2.4.0](https://github.com/hubcarl/egg-view-react-ssr/compare/2.3.4...2.4.0) (2018-12-14)
+
+
+### Features
+
+* remove unused code ([f505622](https://github.com/hubcarl/egg-view-react-ssr/commit/f505622))
+* support render asset mode ([74299fe](https://github.com/hubcarl/egg-view-react-ssr/commit/74299fe))
+
+
+
 <a name="2.3.4"></a>
 ## [2.3.4](https://github.com/hubcarl/egg-view-react-ssr/compare/2.3.3...2.3.4) (2018-12-03)
 
