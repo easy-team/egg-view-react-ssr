@@ -56,9 +56,29 @@ describe('test/view-react-ssr.test.js', () => {
         assert(res.text.indexOf('react client render') > -1);
       });
   });
+  it('should GET /renderReactClient', () => {
+    return request(app.callback())
+      .get('/renderReactClient')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('"csrf"') > -1);
+        assert(res.text.indexOf('"egg renderClient"') > -1);
+        assert(res.text.indexOf('react client render') > -1);
+      });
+  });
   it('should GET /renderAsset', () => {
     return request(app.callback())
       .get('/renderAsset')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('<title>renderAsset</title>') > -1);
+        assert(res.text.indexOf('src="/public/js/common.52446b6b.js"') > -1);
+        assert(res.text.indexOf('window.__INITIAL_STATE__ = {"title":"renderAsset","message":"react renderAsset test"}') > -1);
+      });
+  });
+  it('should GET /renderReactAsset', () => {
+    return request(app.callback())
+      .get('/renderReactAsset')
       .expect(200)
       .expect(res => {
         assert(res.text.indexOf('<title>renderAsset</title>') > -1);
