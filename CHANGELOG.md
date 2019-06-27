@@ -1,3 +1,13 @@
+<a name="2.5.0"></a>
+# [2.5.0](https://github.com/hubcarl/egg-view-react-ssr/compare/2.4.1...2.5.0) (2019-06-27)
+
+
+### Features
+
+* support no manifest render ([f99ad0f](https://github.com/hubcarl/egg-view-react-ssr/commit/f99ad0f))
+
+
+
 <a name="2.4.1"></a>
 ## [2.4.1](https://github.com/hubcarl/egg-view-react-ssr/compare/2.4.0...2.4.1) (2018-12-18)
 
