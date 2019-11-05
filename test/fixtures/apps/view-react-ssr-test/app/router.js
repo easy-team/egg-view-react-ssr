@@ -11,4 +11,5 @@ module.exports = app => {
   app.get('/renderReactAsset', app.controller.view.renderReactAsset);
   app.get('/error', app.controller.view.renderError);
   app.get('/renderMarkup', app.controller.view.renderMarkup);
+  app.get('/stateless', app.controller.view.reactServerRenderStateless);
 };

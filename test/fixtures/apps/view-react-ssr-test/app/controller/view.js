@@ -58,3 +58,10 @@ exports.renderMarkup = function* (ctx) {
     },
   });
 };
+
+exports.reactServerRenderStateless = function* (ctx) {
+  yield ctx.render('stateless.js', {
+    title: 'React Server Render',
+    text: 'Egg + React + Webpack Server Side Render Stateless Component',
+  });
+};

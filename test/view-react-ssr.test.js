@@ -86,4 +86,12 @@ describe('test/view-react-ssr.test.js', () => {
         assert(res.text.indexOf('window.__INITIAL_STATE__ = {"title":"renderAsset","message":"react renderAsset test"}') > -1);
       });
   });
+  it('should GET /renderForStateless', () => {
+    return request(app.callback())
+      .get('/stateless')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('Egg + React + Webpack Server Side Render Stateless Component') > -1);
+      });
+  });
 });
