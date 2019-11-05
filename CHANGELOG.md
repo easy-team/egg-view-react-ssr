@@ -1,3 +1,13 @@
+<a name="2.5.1"></a>
+## [2.5.1](https://github.com/hubcarl/egg-view-react-ssr/compare/2.5.0...2.5.1) (2019-11-05)
+
+
+### Bug Fixes
+
+* support render react stateless component ([d579b9a](https://github.com/hubcarl/egg-view-react-ssr/commit/d579b9a))
+
+
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/hubcarl/egg-view-react-ssr/compare/2.4.1...2.5.0) (2019-06-27)
 
