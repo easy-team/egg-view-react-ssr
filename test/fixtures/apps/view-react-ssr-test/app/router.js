@@ -12,4 +12,5 @@ module.exports = app => {
   app.get('/error', app.controller.view.renderError);
   app.get('/renderMarkup', app.controller.view.renderMarkup);
   app.get('/stateless', app.controller.view.reactServerRenderStateless);
+  app.get('/promise', app.controller.view.reactServerRenderPromise);
 };

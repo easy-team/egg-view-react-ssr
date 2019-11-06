@@ -1,4 +1,3 @@
 coverage
-component.js
-layout.js
-stateless.js
+test/fixtures/apps/view-react-ssr-no-manifest-test/app/view
+test/fixtures/apps/view-react-ssr-test/app/view

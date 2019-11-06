@@ -65,3 +65,10 @@ exports.reactServerRenderStateless = function* (ctx) {
     text: 'Egg + React + Webpack Server Side Render Stateless Component',
   });
 };
+
+exports.reactServerRenderPromise = function* (ctx) {
+  yield ctx.render('promise.js', {
+    title: 'React Server Render',
+    message: 'Egg + React + Webpack Server Side Render Promise Mode',
+  });
+};

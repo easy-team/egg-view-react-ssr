@@ -94,4 +94,12 @@ describe('test/view-react-ssr.test.js', () => {
         assert(res.text.indexOf('Egg + React + Webpack Server Side Render Stateless Component') > -1);
       });
   });
+  it('should GET /renderForPromiseMode', () => {
+    return request(app.callback())
+      .get('/promise')
+      .expect(200)
+      .expect(res => {
+        assert(res.text.indexOf('Egg + React + Webpack Server Side Render Promise Mode') > -1);
+      });
+  });
 });
