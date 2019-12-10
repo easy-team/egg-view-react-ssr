@@ -13,7 +13,7 @@
     "react server side render"
   ],
   "dependencies": {
-    "serialize-javascript": "^1.5.0",
+    "serialize-javascript": "^2.1.1",
     "server-side-render-resource": "^1.0.2"
   },
   "peerDependencies": {
