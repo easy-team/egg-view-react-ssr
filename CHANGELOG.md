@@ -1,3 +1,7 @@
+## [2.5.4](https://github.com/hubcarl/egg-view-react-ssr/compare/2.5.3...2.5.4) (2020-01-16)
+
+
+
 <a name="2.5.1"></a>
 ## [2.5.1](https://github.com/hubcarl/egg-view-react-ssr/compare/2.5.0...2.5.1) (2019-11-05)
 
