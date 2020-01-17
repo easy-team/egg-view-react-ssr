@@ -8,19 +8,23 @@ module.exports = {
     return this.renderReactAsset(name, locals, options);
   },
 
-  renderReactAsset(name, locals, options) {
-    return this.app.react.renderAsset(this, name, locals, options).then(html => {
-      this.body = html;
-    });
+  async renderReactAsset(name, locals, options) {
+    this.body = await this.renderReactAssetToHTML(name, locals, options);
   },
 
-  renderReactClient(name, locals = {}, options = {}) {
+  async renderReactClient(name, locals = {}, options = {}) {
+    this.body = await this.renderReactClientToHTML(name, locals, options);
+  },
+
+  async renderReactAssetToHTML(name, locals, options) {
+    return await this.app.react.renderAsset(this, name, locals, options);
+  },
+
+  async renderReactClientToHTML(name, locals = {}, options = {}) {
     const config = this.app.config.reactssr;
     const layout = options.layout || config.layout;
     locals = this.app.react.mergeLocals(this, locals, options, false);
     options = Object.assign({}, options, { name, markup: true });
-    return this.app.react.renderPage(layout, locals, options).then(html => {
-      this.body = html;
-    });
+    return await this.app.react.renderPage(layout, locals, options);
   },
 };

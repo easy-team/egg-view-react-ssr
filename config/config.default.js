@@ -15,7 +15,7 @@ module.exports = app => {
    * react ssr config
    * @member Config#react
    * @property {String} [doctype] - html doctype
-   * @property {String} [manifest=${baseDir}/app/view/layout.js] - client render template, support renderString compile
+   * @property {String} [manifest=${baseDir}/app/view/layout.html] - client render template, support renderString compile
    * @property {String} [manifest=${baseDir}/config/manifest.json] - resource dependence(css, js) config
    * @property {String} [manifest=${baseDir}/config/buildConfig.json] - compile config, include `publicPath` and `commonsChunk`
    * @property {String|Object} [injectHeadRegex] - inject resource in header location
@@ -34,7 +34,7 @@ module.exports = app => {
    */
   config.reactssr = {
     doctype: '<!doctype html>',
-    layout: path.join(app.baseDir, 'app/view/layout.js'),
+    layout: path.join(app.baseDir, 'app/view/layout.html'),
     manifest: path.join(app.baseDir, 'config/manifest.json'),
     injectHeadRegex: /(<\/head>)/i,
     injectBodyRegex: /(<\/body>)/i,
