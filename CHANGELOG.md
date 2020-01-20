@@ -1,3 +1,18 @@
+<a name="3.0.0-beta.2"></a>
+# [3.0.0-beta.2](https://github.com/hubcarl/egg-view-react-ssr/compare/2.5.4...3.0.0-beta.2) (2020-01-20)
+
+
+### Bug Fixes
+
+* ssr render error to client render ([0600156](https://github.com/hubcarl/egg-view-react-ssr/commit/0600156))
+
+
+### Features
+
+* node 8 upgrade ([6168d8c](https://github.com/hubcarl/egg-view-react-ssr/commit/6168d8c))
+
+
+
 ## [2.5.4](https://github.com/hubcarl/egg-view-react-ssr/compare/2.5.3...2.5.4) (2020-01-16)
 
 
