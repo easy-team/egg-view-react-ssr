@@ -43,7 +43,8 @@ describe('test/view-react-ssr.test.js', () => {
       .get('/error')
       .expect(200)
       .expect(res => {
-        assert(res.text.indexOf('</body></html>') > -1);
+        assert(res.text.indexOf('<title>Egg + React</title>') > -1);
+        assert(res.text.indexOf('src="/public/js/error.a5b20c7a.js"') > -1);
       });
   });
   it('should GET /renderClient', () => {
@@ -92,14 +93,6 @@ describe('test/view-react-ssr.test.js', () => {
       .expect(200)
       .expect(res => {
         assert(res.text.indexOf('Egg + React + Webpack Server Side Render Stateless Component') > -1);
-      });
-  });
-  it('should GET /renderForPromiseMode', () => {
-    return request(app.callback())
-      .get('/promise')
-      .expect(200)
-      .expect(res => {
-        assert(res.text.indexOf('Egg + React + Webpack Server Side Render Promise Mode') > -1);
       });
   });
 });

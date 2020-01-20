@@ -14,6 +14,16 @@
         "/public/css/hello/component.93dab602.css"
       ]
     },
+    "error.js": {
+      "js": [
+        "/public/js/vendor.841eac66.js",
+        "/public/js/common.52446b6b.js",
+        "/public/js/error.a5b20c7a.js"
+      ],
+      "css": [
+        "/public/css/error.93dab602.css"
+      ]
+    },
     "layout.js": {
       "js": [
         "/public/js/vendor.841eac66.js",

@@ -42,7 +42,7 @@ describe('test/view-react-ssr-no-manifest.test.js', () => {
       .get('/error')
       .expect(200)
       .expect(res => {
-        assert(res.text.indexOf('</body></html>') > -1);
+        assert(res.text.indexOf('<title>Egg + React</title>') > -1);
       });
   });
 });

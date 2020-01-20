@@ -40,16 +40,21 @@ exports.reactssr = {
 
 ## Version
 
+#### 3.x.x (Node>8)
+
+- node version > 8
+- config `reactssr.layout` default `app/view/layout.html`
+- support react stateless component render (not support promise function callback)
+
+#### 2.x.x (Node>6)
+
+- node version > 6
+- config `reactssr.layout` default `app/view/layout.js`
+- support promise function callback(not support react stateless component render)
+
 #### 1.x.x
 
 egg-view-react-ssr depends on egg-view-react plugin
-
-#### 2.x.x
-
-egg-view-react-ssr no longer depends on egg-view-react plugin, egg-view-react-ssr has an independent function that can run on its own
-
-- 2.0.0-2.1.1: react and react-dom dependence in plugin dependence
-- >2.2.0: react and react-dom are not inside in plugin dependence
 
 ## Configuration
 
@@ -57,7 +62,7 @@ egg-view-react-ssr no longer depends on egg-view-react plugin, egg-view-react-ss
 // {app_root}/config/config.default.js
 exports.reactssr = {
   // doctype: '<!doctype html>',
-  // layout: path.join(app.baseDir, 'app/view/layout.js'),
+  // layout: path.join(app.baseDir, 'app/view/layout.html'),
   // manifest: path.join(app.baseDir, 'config/manifest.json'),
   // injectHeadRegex: /(<\/head>)/i,
   // injectBodyRegex: /(<\/body>)/i,
@@ -86,8 +91,13 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ```js
 // controller/home.js
-exports.index = function* (ctx) {
-  yield ctx.render('index/index.js', { message: 'egg react server side render'});
+module.exports = app => {
+  return class IndecController extends app.Controller {
+    async index(ctx) {
+      // home.js: webpack builded ssr entry jsbundle file
+      await ctx.render('home.js', { message: 'egg react server side render'});
+    }
+  };
 };
 ```
 
@@ -99,8 +109,13 @@ exports.index = function* (ctx) {
 
 ```js
 // controller/home.js
-exports.client = function* (ctx) {
-  yield ctx.renderClient('index/index.js',{ message: 'egg react client render'});
+module.exports = app => {
+  return class IndecController extends app.Controller {
+    async index(ctx) {
+      // home.js: webpack builded client render entry jsbundle file
+      await ctx.renderClient('home.js', { message: 'egg react client side render'});
+    }
+  };
 };
 ```
 
@@ -116,8 +131,13 @@ exports.client = function* (ctx) {
 
 ```js
 // controller/home.js
-exports.asset = function* (ctx) {
-  yield ctx.renderAsset('index/index.js', { message: 'egg react asset render'});
+module.exports = app => {
+  return class IndecController extends app.Controller {
+    async index(ctx) {
+      // home.js: webpack builded client render entry jsbundle file
+      await ctx.renderAsset('home.js', { message: 'egg react client asset render'});
+    }
+  };
 };
 ```
 
@@ -125,14 +145,23 @@ exports.asset = function* (ctx) {
 
 ```js
 // controller/home.js
-exports.asset = function* (ctx) {
-  yield ctx.renderAsset('index/index.js', { message: 'egg react asset render'}, { viewEngine: 'ejs' });
+module.exports = app => {
+  return class IndecController extends app.Controller {
+    async index(ctx) {
+      // home.js: webpack builded client render entry jsbundle file
+      await ctx.renderAsset('home.js', { message: 'egg react client asset render'}, { viewEngine: 'ejs' });
+    }
+  };
 };
 ```
 
 ## Example
 
-React server side render example, please see [egg-react-webpack-boilerplate](https://github.com/easy-team/egg-react-webpack-boilerplate)
+- React Server Side Render [egg-react-webpack-boilerplate](https://github.com/easy-team/egg-react-webpack-boilerplate)
+
+- React TypeScript Server Side Render [egg-react-typescript-boilerplate](https://github.com/easy-team/egg-react-typescript-boilerplate)
+
+- React SSR Framework Example for Egg [res-awesome](https://github.com/easy-team/res-awesome)
 
 ## Questions & Suggestions
 
