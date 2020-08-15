@@ -1,155 +1,164 @@
-<a name="3.0.0"></a>
-# [3.0.0](https://github.com/hubcarl/egg-view-react-ssr/compare/2.5.4...3.0.0) (2020-01-26)
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/easy-team/egg-view-react-ssr/compare/3.0.0...3.1.0) (2020-08-15)
 
 
 ### Bug Fixes
 
-* ssr render error to client render ([0600156](https://github.com/hubcarl/egg-view-react-ssr/commit/0600156))
+* serialize-javascript from 2.1.2 to 4.0.0 ([d761fe9](https://github.com/easy-team/egg-view-react-ssr/commit/d761fe9))
+
+
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/easy-team/egg-view-react-ssr/compare/2.5.4...3.0.0) (2020-01-26)
+
+
+### Bug Fixes
+
+* ssr render error to client render ([0600156](https://github.com/easy-team/egg-view-react-ssr/commit/0600156))
 
 
 ### Features
 
-* node 8 upgrade ([6168d8c](https://github.com/hubcarl/egg-view-react-ssr/commit/6168d8c))
+* node 8 upgrade ([6168d8c](https://github.com/easy-team/egg-view-react-ssr/commit/6168d8c))
 
 
 
 <a name="3.0.0-beta.2"></a>
-# [3.0.0-beta.2](https://github.com/hubcarl/egg-view-react-ssr/compare/2.5.4...3.0.0-beta.2) (2020-01-20)
+# [3.0.0-beta.2](https://github.com/easy-team/egg-view-react-ssr/compare/2.5.4...3.0.0-beta.2) (2020-01-20)
 
 
 ### Bug Fixes
 
-* ssr render error to client render ([0600156](https://github.com/hubcarl/egg-view-react-ssr/commit/0600156))
+* ssr render error to client render ([0600156](https://github.com/easy-team/egg-view-react-ssr/commit/0600156))
 
 
 ### Features
 
-* node 8 upgrade ([6168d8c](https://github.com/hubcarl/egg-view-react-ssr/commit/6168d8c))
+* node 8 upgrade ([6168d8c](https://github.com/easy-team/egg-view-react-ssr/commit/6168d8c))
 
 
 
-## [2.5.4](https://github.com/hubcarl/egg-view-react-ssr/compare/2.5.3...2.5.4) (2020-01-16)
+## [2.5.4](https://github.com/easy-team/egg-view-react-ssr/compare/2.5.3...2.5.4) (2020-01-16)
 
 
 
 <a name="2.5.1"></a>
-## [2.5.1](https://github.com/hubcarl/egg-view-react-ssr/compare/2.5.0...2.5.1) (2019-11-05)
+## [2.5.1](https://github.com/easy-team/egg-view-react-ssr/compare/2.5.0...2.5.1) (2019-11-05)
 
 
 ### Bug Fixes
 
-* support render react stateless component ([d579b9a](https://github.com/hubcarl/egg-view-react-ssr/commit/d579b9a))
+* support render react stateless component ([d579b9a](https://github.com/easy-team/egg-view-react-ssr/commit/d579b9a))
 
 
 
 <a name="2.5.0"></a>
-# [2.5.0](https://github.com/hubcarl/egg-view-react-ssr/compare/2.4.1...2.5.0) (2019-06-27)
+# [2.5.0](https://github.com/easy-team/egg-view-react-ssr/compare/2.4.1...2.5.0) (2019-06-27)
 
 
 ### Features
 
-* support no manifest render ([f99ad0f](https://github.com/hubcarl/egg-view-react-ssr/commit/f99ad0f))
+* support no manifest render ([f99ad0f](https://github.com/easy-team/egg-view-react-ssr/commit/f99ad0f))
 
 
 
 <a name="2.4.1"></a>
-## [2.4.1](https://github.com/hubcarl/egg-view-react-ssr/compare/2.4.0...2.4.1) (2018-12-18)
+## [2.4.1](https://github.com/easy-team/egg-view-react-ssr/compare/2.4.0...2.4.1) (2018-12-18)
 
 
 ### Bug Fixes
 
-* restore renderReactClient to body ([b2d08f8](https://github.com/hubcarl/egg-view-react-ssr/commit/b2d08f8))
+* restore renderReactClient to body ([b2d08f8](https://github.com/easy-team/egg-view-react-ssr/commit/b2d08f8))
 
 
 
 <a name="2.4.0"></a>
-# [2.4.0](https://github.com/hubcarl/egg-view-react-ssr/compare/2.3.4...2.4.0) (2018-12-14)
+# [2.4.0](https://github.com/easy-team/egg-view-react-ssr/compare/2.3.4...2.4.0) (2018-12-14)
 
 
 ### Features
 
-* remove unused code ([f505622](https://github.com/hubcarl/egg-view-react-ssr/commit/f505622))
-* support render asset mode ([74299fe](https://github.com/hubcarl/egg-view-react-ssr/commit/74299fe))
+* remove unused code ([f505622](https://github.com/easy-team/egg-view-react-ssr/commit/f505622))
+* support render asset mode ([74299fe](https://github.com/easy-team/egg-view-react-ssr/commit/74299fe))
 
 
 
 <a name="2.3.4"></a>
-## [2.3.4](https://github.com/hubcarl/egg-view-react-ssr/compare/2.3.3...2.3.4) (2018-12-03)
+## [2.3.4](https://github.com/easy-team/egg-view-react-ssr/compare/2.3.3...2.3.4) (2018-12-03)
 
 
 ### Bug Fixes
 
-* server render error, client render name error ([180362b](https://github.com/hubcarl/egg-view-react-ssr/commit/180362b))
+* server render error, client render name error ([180362b](https://github.com/easy-team/egg-view-react-ssr/commit/180362b))
 
 
 
 <a name="2.3.3"></a>
-## [2.3.3](https://github.com/hubcarl/egg-view-react-ssr/compare/2.3.1...2.3.3) (2018-11-13)
+## [2.3.3](https://github.com/easy-team/egg-view-react-ssr/compare/2.3.1...2.3.3) (2018-11-13)
 
 
 
 <a name="2.3.1"></a>
-## [2.3.1](https://github.com/hubcarl/egg-view-react-ssr/compare/2.3.0...2.3.1) (2018-07-20)
+## [2.3.1](https://github.com/easy-team/egg-view-react-ssr/compare/2.3.0...2.3.1) (2018-07-20)
 
 
 ### Bug Fixes
 
-* mergeLocals ([9692af6](https://github.com/hubcarl/egg-view-react-ssr/commit/9692af6))
+* mergeLocals ([9692af6](https://github.com/easy-team/egg-view-react-ssr/commit/9692af6))
 
 
 
 <a name="2.3.0"></a>
-# [2.3.0](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.7...2.3.0) (2018-07-20)
+# [2.3.0](https://github.com/easy-team/egg-view-react-ssr/compare/2.2.7...2.3.0) (2018-07-20)
 
 
 ### Features
 
-* support whether merge ctx.local by config.mergeLocals option ([aae1391](https://github.com/hubcarl/egg-view-react-ssr/commit/aae1391))
+* support whether merge ctx.local by config.mergeLocals option ([aae1391](https://github.com/easy-team/egg-view-react-ssr/commit/aae1391))
 
 
 
 <a name="2.2.7"></a>
-## [2.2.7](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.6...2.2.7) (2018-07-04)
+## [2.2.7](https://github.com/easy-team/egg-view-react-ssr/compare/2.2.6...2.2.7) (2018-07-04)
 
 
 ### Bug Fixes
 
-* renderClient locals no merge in state ([21160f9](https://github.com/hubcarl/egg-view-react-ssr/commit/21160f9))
+* renderClient locals no merge in state ([21160f9](https://github.com/easy-team/egg-view-react-ssr/commit/21160f9))
 
 
 
 <a name="2.2.6"></a>
-## [2.2.6](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.5...2.2.6) (2018-07-03)
+## [2.2.6](https://github.com/easy-team/egg-view-react-ssr/compare/2.2.5...2.2.6) (2018-07-03)
 
 
 ### Bug Fixes
 
-* renderClient layout not use ssr layout ([0e6ec1f](https://github.com/hubcarl/egg-view-react-ssr/commit/0e6ec1f))
+* renderClient layout not use ssr layout ([0e6ec1f](https://github.com/easy-team/egg-view-react-ssr/commit/0e6ec1f))
 
 
 
 <a name="2.2.5"></a>
-## [2.2.5](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.4...2.2.5) (2018-06-13)
+## [2.2.5](https://github.com/easy-team/egg-view-react-ssr/compare/2.2.4...2.2.5) (2018-06-13)
 
 
 ### Bug Fixes
 
-* ctx missing when server render by enumerable: false ([1749123](https://github.com/hubcarl/egg-view-react-ssr/commit/1749123))
+* ctx missing when server render by enumerable: false ([1749123](https://github.com/easy-team/egg-view-react-ssr/commit/1749123))
 
 
 
 <a name="2.2.4"></a>
-## [2.2.4](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.3...2.2.4) (2018-03-16)
+## [2.2.4](https://github.com/easy-team/egg-view-react-ssr/compare/2.2.3...2.2.4) (2018-03-16)
 
 
 
 <a name="2.2.3"></a>
-## [2.2.3](https://github.com/hubcarl/egg-view-react-ssr/compare/2.2.2...2.2.3) (2018-03-15)
+## [2.2.3](https://github.com/easy-team/egg-view-react-ssr/compare/2.2.2...2.2.3) (2018-03-15)
 
 
 ### Bug Fixes
 
-* csrf support when post request ([f6b39a4](https://github.com/hubcarl/egg-view-react-ssr/commit/f6b39a4))
+* csrf support when post request ([f6b39a4](https://github.com/easy-team/egg-view-react-ssr/commit/f6b39a4))
 
 
 
